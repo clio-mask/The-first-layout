@@ -9,17 +9,17 @@
 @font-face {
     font-family: "TT Lakes";
     font-weight: 500;
-    src: local("TT Lakes Medium"),
-        url("/font/TTLakes-Medium.ttf") format("ttf"),
-        url("/font/TTLakes-Medium.woff") format("woff"),
+    src: local("TT Lakes Bold"),
+    url("/font/TTLakes-Bold.ttf") format("ttf"),
+    url("/font/TTLakes-Bold.woff") format("woff"),
 }
 
 @font-face {
     font-family: "TT Lakes";
     font-weight: 700;
     src: local("TT Lakes Bold"),
-        url("/font/TTLakes-Bold.ttf") format("ttf"),
-        url("/font/TTLakes-Bold.woff") format("woff"),
+        url("/font/TTLakes-ExtraBold.ttf") format("ttf"),
+        url("/font/TTLakes-ExtraBold.woff") format("woff"),
 }
 
 html {
