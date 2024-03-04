@@ -5,36 +5,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/main.css">
-    <title>Главная</title>
+    <title>Модуль 3.1. Верстка макета</title>
 </head>
 
 <body class="page">
     <header class="header">
         <div class="header__wrapper">
             <div class="header__left-part header--margins">
-                <a class="header__menu header--button--pink"></a>
-                <a class="logo" href="/"><img class="logo__img" src="/img/logo.svg" alt="Логотип"></a>
+                <button class="menu header--button--pink"></button>
+                <a class="logo header__logo" href="/"><img class="logo__img" src="/img/logo.svg" alt="Логотип"></a>
             </div>
-            <div class="header__right-part header--margins">
-                <a class="header__support header--button--pink"></a>
-                <a class="header__search header--button--pink"></a>
+            <div class="header__tablet header__tablet--margins">
+                <div class="header__middle-part header--hidden header--margins">
+                    <a class="phone header--button--pink"></a>
+                    <a class="message header--button--pink"></a>
+                    <a class="personal header--button--pink"></a>
+                </div>
+                <div class="header__right-part header--margins">
+                    <a class="support header--button--pink"></a>
+                    <a class="search header--button--pink"></a>
+                </div>
             </div>
         </div>
     </header>
     <main class="main">
-        <h1 class="main__title">Услуги и сервисы</h1>
-        <ul class="service-list main__service-list">
-            <li class="service-list__item service-list__item--active">Ремонтируемые устройства</li>
-            <li class="service-list__item">Дополнительные услуги</li>
-            <li class="service-list__item">Цены на услуги</li>
-            <li class="service-list__item">Специальные цены</li>
-            <li class="service-list__item">Адреса сервисных центров</li>
-            <li class="service-list__item">Специальные цены</li>
-            <li class="service-list__item">Отзывы</li>
-        </ul>
-<p class="text">
-    Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
-</p>
+        <div class="main__wrapper">
+            <div class="main__title-block">
+                <h1 class="main__title main__title--mobile">Услуги и сервисы</h1>
+                <div class="button-block main__button-block">
+                    <div class="button-block__item">
+                        <span class="name">Оставить заявку</span>
+                        <button class="support header--button--pink"></button>
+                    </div>
+                    <div class="button-block__item">
+                        <span class="name">Статус ремонта</span>
+                        <button class="search header--button--pink"></button>
+                    </div>
+                </div>
+
+            </div>
+            <ul class="service-list main__service-list">
+                <li class="service-list__item service-list__item--active">Ремонтируемые устройства</li>
+                <li class="service-list__item">Дополнительные услуги</li>
+                <li class="service-list__item">Цены на услуги</li>
+                <li class="service-list__item">Специальные цены</li>
+                <li class="service-list__item">Адреса сервисных центров</li>
+                <li class="service-list__item">Специальные цены</li>
+                <li class="service-list__item">Отзывы</li>
+            </ul>
+        </div>
+        <div class="picture-block main__picture-block">
+            <div class="text picture-block__text">
+                <p class="text__item">
+                    Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете
+                    отремонтировать свой ноутбук Dell с официальной гарантией производителя.
+                </p>
+                <p class="text__item text__item--hidden">Мы успешно работаем с 1992 года и заслужили репутацию надежного
+                    партнера</p>
+                <p class="text__item text__item--hidden">Мы успешно работаем с 1992 года и заслужили репутацию надежного
+                    партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам
+                    обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
+                <button class="read-more-button read-more-button--arrows--green">Читать далее</button>
+            </div>
+            <img class="image picture-block__image" src="/img/main_pic.jpeg" alt="Логотип компании">
+        </div>
     </main>
 </body>
 
