@@ -57,15 +57,15 @@ html {
 }
 
 .menu {
-    background: url(/img/menu.svg) #FF3E79 no-repeat center;
+    background: url(/The-first-layout/img/menu.svg) #FF3E79 no-repeat center;
 }
 
 .support {
-    background: url(/img/support.svg) #FF3E79 no-repeat center;
+    background: url(/The-first-layout/img/support.svg) #FF3E79 no-repeat center;
 }
 
 .search {
-    background: url(/img/search.svg) #FF3E79 no-repeat center;
+    background: url(/The-first-layout/img/search.svg) #FF3E79 no-repeat center;
 }
 
 
@@ -179,7 +179,7 @@ html {
     width: 8px;
     height: 11px;
     background-size: contain;
-    background: url(/img/arrows.svg) no-repeat;
+    background: url(/The-first-layout/img/arrows.svg) no-repeat;
 }
 
 .read-more-button--arrows--green {
@@ -239,15 +239,15 @@ html {
     }
 
     .phone {
-        background: url(/img/phone.svg) #FF3E79 no-repeat center;
+        background: url(/The-first-layout/img/phone.svg) #FF3E79 no-repeat center;
     }
 
     .message {
-        background: url(/img/message.svg) #FF3E79 no-repeat center;
+        background: url(/The-first-layout/img/message.svg) #FF3E79 no-repeat center;
     }
 
     .personal {
-        background: url(/img/personal.svg) #FF3E79 no-repeat center;
+        background: url(/The-first-layout/img/personal.svg) #FF3E79 no-repeat center;
     }
 
     .header__tablet--margins {
