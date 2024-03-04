@@ -2,24 +2,24 @@
     font-family: "TT Lakes";
     font-weight: 400;
     src: local("TT Lakes"),
-        url("/font/TTLakes-Regular.ttf") format("ttf"),
-        url("/font/TTLakes-Regular.woff") format("woff"),
+        url("/The-first-layout/font/TTLakes-Regular.ttf") format("ttf"),
+        url("/The-first-layout/font/TTLakes-Regular.woff") format("woff"),
 }
 
 @font-face {
     font-family: "TT Lakes";
     font-weight: 500;
     src: local("TT Lakes Bold"),
-    url("/font/TTLakes-Bold.ttf") format("ttf"),
-    url("/font/TTLakes-Bold.woff") format("woff"),
+    url("/The-first-layout/font/TTLakes-Bold.ttf") format("ttf"),
+    url("/The-first-layout/font/TTLakes-Bold.woff") format("woff"),
 }
 
 @font-face {
     font-family: "TT Lakes";
     font-weight: 700;
     src: local("TT Lakes Bold"),
-        url("/font/TTLakes-ExtraBold.ttf") format("ttf"),
-        url("/font/TTLakes-ExtraBold.woff") format("woff"),
+        url("/The-first-layout/font/TTLakes-ExtraBold.ttf") format("ttf"),
+        url("/The-first-layout/font/TTLakes-ExtraBold.woff") format("woff"),
 }
 
 html {
