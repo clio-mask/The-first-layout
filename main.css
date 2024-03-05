@@ -55,6 +55,7 @@ html {
     border-radius: 100%;
     border: none;
     cursor: pointer;
+    background-color: #FF3E79;
 }
 
 
@@ -68,10 +69,6 @@ html {
 
 .search {
     background: url(/The-first-layout/img/search.svg) no-repeat center;
-}
-
-.header__button--pink {
-    background-color: #FF3E79;
 }
 
 .header__left-part,
@@ -116,7 +113,6 @@ html {
 
 .service-list {
     list-style: none;
-    display: flex;
     overflow: scroll;
 }
 
@@ -128,6 +124,7 @@ html {
     padding: 0;
     margin: 24px -16px;
     gap: 20px;
+    display: flex;
 }
 
 .main__service-list::after {
@@ -210,7 +207,7 @@ html {
 
 @media screen and (min-width:768px) {
 
-    .header__middle-part{
+    .header__middle-part {
         display: flex;
     }
 
@@ -267,7 +264,7 @@ html {
         background-color: #FF3E79;
     }
 
-    .header__middle-part{
+    .header__middle-part {
         gap: 20px;
     }
 
@@ -333,7 +330,7 @@ html {
         justify-content: space-between;
     }
 
-    .button-block {
+    .main__button-block {
         display: flex;
         align-items: center;
         gap: 32px;
@@ -353,6 +350,7 @@ html {
         border-radius: 100%;
         border: none;
         cursor: pointer;
+        background-color: #FF3E79;
     }
 
     .button-block__name {
@@ -360,9 +358,4 @@ html {
         font-weight: 500;
         cursor: pointer;
     }
-
-    .button-block__button--pink {
-        background-color: #FF3E79;
-    }
-
 }
