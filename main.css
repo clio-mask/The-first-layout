@@ -181,6 +181,9 @@ html {
     letter-spacing: -0.2px;
     font-family: 'TT Lakes', sans-serif;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 16px;
 }
 
 .read-more-button::before {
@@ -192,11 +195,6 @@ html {
     cursor: pointer;
 }
 
-.read-more-button--arrows--green {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-}
 
 .picture-block__image {
     width: 100%;
@@ -368,4 +366,3 @@ html {
     }
 
 }
- 
