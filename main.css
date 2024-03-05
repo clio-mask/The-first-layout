@@ -333,7 +333,7 @@ html {
         justify-content: space-between;
     }
 
-    .main__button-block {
+    .button-block {
         display: flex;
         align-items: center;
         gap: 32px;
