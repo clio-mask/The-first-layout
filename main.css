@@ -74,9 +74,9 @@ html {
     background-color: #FF3E79;
 }
 
-.header__left-part--margins,
-.header__middle-part--margins,
-.header__right-part--margins {
+.header__left-part,
+.header__middle-part,
+.header__right-part {
     display: flex;
     gap: 16px;
     align-items: center;
@@ -204,7 +204,7 @@ html {
     display: none;
 }
 
-.main__title--mobile {
+.main__title {
     margin-top: 0;
 }
 
