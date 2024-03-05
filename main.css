@@ -10,8 +10,8 @@
     font-family: "TT Lakes";
     font-weight: 500;
     src: local("TT Lakes Bold"),
-    url("/The-first-layout/font/TTLakes-Bold.ttf") format("ttf"),
-    url("/The-first-layout/font/TTLakes-Bold.woff") format("woff"),
+        url("/The-first-layout/font/TTLakes-Bold.ttf") format("ttf"),
+        url("/The-first-layout/font/TTLakes-Bold.woff") format("woff"),
 }
 
 @font-face {
@@ -48,7 +48,7 @@ html {
     background-color: #FFFFFF;
 }
 
-.header--button--pink {
+.header__button {
     display: inline-block;
     width: 40px;
     height: 40px;
@@ -56,26 +56,32 @@ html {
     border: none;
 }
 
-.menu {
-    background: url(/The-first-layout/img/menu.svg) #FF3E79 no-repeat center;
+
+.header__menu {
+    background: url(/The-first-layout/img/menu.svg) no-repeat center;
 }
 
-.support {
-    background: url(/The-first-layout/img/support.svg) #FF3E79 no-repeat center;
+.header__support {
+    background: url(/The-first-layout/img/support.svg) no-repeat center;
 }
 
-.search {
-    background: url(/The-first-layout/img/search.svg) #FF3E79 no-repeat center;
+.header__search {
+    background: url(/The-first-layout/img/search.svg) no-repeat center;
 }
 
+.header__button--pink {
+    background-color: #FF3E79;
+}
 
-.header--margins {
+.header__left-part--margins,
+.header__middle-part--margins,
+.header__right-part--margins {
     display: flex;
     gap: 16px;
     align-items: center;
 }
 
-.header--hidden {
+.header__middle-part--hidden {
     display: none;
 }
 
@@ -203,7 +209,7 @@ html {
 
 @media screen and (min-width:768px) {
 
-    .header--hidden {
+    .header__middle-part--hidden {
         display: flex;
     }
 
@@ -239,24 +245,28 @@ html {
         margin: 24px -16px 32px;
     }
 
-    .phone {
-        background: url(/The-first-layout/img/phone.svg) #FF3E79 no-repeat center;
+    .header__phone {
+        background: url(/The-first-layout/img/phone.svg) no-repeat center;
     }
 
-    .message {
-        background: url(/The-first-layout/img/message.svg) #FF3E79 no-repeat center;
+    .header__message {
+        background: url(/The-first-layout/img/message.svg) no-repeat center;
     }
 
-    .personal {
-        background: url(/The-first-layout/img/personal.svg) #FF3E79 no-repeat center;
+    .header__personal {
+        background: url(/The-first-layout/img/personal.svg) no-repeat center;
     }
 
-    .header__tablet--margins {
+    .header__tablet {
         display: flex;
         gap: 20px;
     }
 
-    .header--margins {
+    .header__tablet .header__button--pink {
+        background-color: #FF3E79;
+    }
+
+    .header__middle-part--margins {
         gap: 20px;
     }
 
@@ -272,6 +282,10 @@ html {
         width: 2px;
         background-color: #EAEAEA;
         display: inline;
+    }
+
+    .header__wrapper {
+        padding: 24px;
     }
 
 }
@@ -331,8 +345,29 @@ html {
         gap: 8px;
     }
 
-    .name {
+    .button-block__button {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        border: none;
+    }
+
+    .button-block__name {
         color: #1B1C21;
         font-weight: 500;
     }
+
+    .button-block__button--pink {
+        background-color: #FF3E79;
+    }
+
+    .button-block__support {
+        background: url(/The-first-layout/img/support.svg) no-repeat center;
+    }
+
+    .button-block__search {
+        background: url(/The-first-layout/img/search.svg) no-repeat center;
+    }
+
 }
