@@ -358,16 +358,16 @@ html {
         font-weight: 500;
     }
 
-    .button-block__button--pink {
-        background-color: #FF3E79;
-    }
-
     .button-block__support {
         background: url(/The-first-layout/img/support.svg) no-repeat center;
     }
 
     .button-block__search {
         background: url(/The-first-layout/img/search.svg) no-repeat center;
+    }
+
+    .button-block__button--pink {
+        background-color: #FF3E79;
     }
 
 }
