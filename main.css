@@ -82,7 +82,7 @@ html {
     align-items: center;
 }
 
-.header__middle-part--hidden {
+.header__middle-part {
     display: none;
 }
 
@@ -210,7 +210,7 @@ html {
 
 @media screen and (min-width:768px) {
 
-    .header__middle-part--hidden {
+    .header__middle-part{
         display: flex;
     }
 
@@ -267,7 +267,7 @@ html {
         background-color: #FF3E79;
     }
 
-    .header__middle-part--margins {
+    .header__middle-part{
         gap: 20px;
     }
 
