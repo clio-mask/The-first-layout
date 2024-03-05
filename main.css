@@ -54,6 +54,7 @@ html {
     height: 40px;
     border-radius: 100%;
     border: none;
+    cursor: pointer;
 }
 
 
@@ -179,6 +180,7 @@ html {
     font-size: 16px;
     letter-spacing: -0.2px;
     font-family: 'TT Lakes', sans-serif;
+    cursor: pointer;
 }
 
 .read-more-button::before {
@@ -187,6 +189,7 @@ html {
     height: 11px;
     background-size: contain;
     background: url(/The-first-layout/img/arrows.svg) no-repeat;
+    cursor: pointer;
 }
 
 .read-more-button--arrows--green {
@@ -351,11 +354,13 @@ html {
         height: 40px;
         border-radius: 100%;
         border: none;
+        cursor: pointer;
     }
 
     .button-block__name {
-        color: #1B1C21;
+        color: hsl(230, 10%, 12%);
         font-weight: 500;
+        cursor: pointer;
     }
 
     .button-block__support {
