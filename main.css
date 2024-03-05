@@ -55,20 +55,19 @@ html {
     border-radius: 100%;
     border: none;
     cursor: pointer;
-    background-color: #FF3E79;
 }
 
 
 .menu {
-    background: url(/The-first-layout/img/menu.svg) no-repeat center;
+    background: url(/The-first-layout/img/menu.svg) #FF3E79 no-repeat center;
 }
 
 .support {
-    background: url(/The-first-layout/img/support.svg) no-repeat center;
+    background: url(/The-first-layout/img/support.svg) #FF3E79 no-repeat center;
 }
 
 .search {
-    background: url(/The-first-layout/img/search.svg) no-repeat center;
+    background: url(/The-first-layout/img/search.svg) #FF3E79 no-repeat center;
 }
 
 .header__left-part,
@@ -244,24 +243,20 @@ html {
     }
 
     .phone {
-        background: url(/The-first-layout/img/phone.svg) no-repeat center;
+        background: url(/The-first-layout/img/phone.svg) #FF3E79 no-repeat center;
     }
 
     .message {
-        background: url(/The-first-layout/img/message.svg) no-repeat center;
+        background: url(/The-first-layout/img/message.svg) #FF3E79 no-repeat center;
     }
 
     .personal {
-        background: url(/The-first-layout/img/personal.svg) no-repeat center;
+        background: url(/The-first-layout/img/personal.svg) #FF3E79 no-repeat center;
     }
 
     .header__tablet {
         display: flex;
         gap: 20px;
-    }
-
-    .header__tablet .header__button--pink {
-        background-color: #FF3E79;
     }
 
     .header__middle-part {
@@ -350,7 +345,6 @@ html {
         border-radius: 100%;
         border: none;
         cursor: pointer;
-        background-color: #FF3E79;
     }
 
     .button-block__name {
