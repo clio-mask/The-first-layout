@@ -325,6 +325,10 @@ html {
     justify-content: space-between;
   }
 
+  .button-block {
+    color: hsl(230, 10%, 12%);
+    font-weight: 500;
+  }
   .main__button-block {
     display: flex;
     align-items: center;
@@ -347,8 +351,6 @@ html {
   }
 
   .button-block__name {
-    color: hsl(230, 10%, 12%);
-    font-weight: 500;
     cursor: pointer;
   }
 }
