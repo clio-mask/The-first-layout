@@ -1,70 +1,87 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/The-first-layout/main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/The-first-layout/main.css" />
     <title>Модуль 3.1. Верстка макета</title>
-</head>
-<body class="page">
+  </head>
+  <body class="page">
     <header class="header">
-        <div class="header__wrapper">
-            <div class="header__left-part">
-                <button class="menu header__button"></button>
-                <a class="logo header__logo" href="/"><img class="logo__img" src="/The-first-layout/img/logo.svg" alt="Логотип"></a>
-            </div>
-            <div class="header__tablet">
-                <div class="header__middle-part">
-                    <a class="phone header__button"></a>
-                    <a class="message header__button"></a>
-                    <a class="personal header__button"></a>
-                </div>
-                <div class="header__right-part">
-                    <a class="support header__button"></a>
-                    <a class="search header__button"></a>
-                </div>
-            </div>
+      <div class="header__wrapper">
+        <div class="header__left-part">
+          <button class="header__menu button"></button>
+          <a class="header__logo" href="/"
+            ><img
+              class="header__logo-img"
+              src="/The-first-layout/img/logo.svg"
+              alt="Логотип"
+          /></a>
         </div>
+        <div class="header__tablet">
+          <div class="header__middle-part">
+            <a class="header__phone button"></a>
+            <a class="header__message button"></a>
+            <a class="header__personal button"></a>
+          </div>
+          <div class="header__right-part">
+            <a class="header__support button"></a>
+            <a class="header__search button"></a>
+          </div>
+        </div>
+      </div>
     </header>
     <main class="main">
-        <div class="main__wrapper">
-            <div class="main__title-block">
-                <h1 class="main__title">Услуги и сервисы</h1>
-                <div class="button-block main__button-block">
-                    <div class="button-block__item">
-                        <span class="button-block__name">Оставить заявку</span>
-                        <button class="support button-block__button"></button>
-                    </div>
-                    <div class="button-block__item">
-                        <span class="button-block__name">Статус ремонта</span>
-                        <button class="search button-block__button"></button>
-                    </div>
-                </div>
+      <div class="main__wrapper">
+        <div class="main__title-block">
+          <h1 class="main__title">Услуги и сервисы</h1>
+          <div class="button-block main__button-block">
+            <div class="button-block__item">
+              <span class="button-block__name">Оставить заявку</span>
+              <button class="button-block__support button"></button>
             </div>
-            <ul class="service-list main__service-list">
-                <li class="service-list__item service-list__item--active">Ремонтируемые устройства</li>
-                <li class="service-list__item">Дополнительные услуги</li>
-                <li class="service-list__item">Цены на услуги</li>
-                <li class="service-list__item">Специальные цены</li>
-                <li class="service-list__item">Адреса сервисных центров</li>
-                <li class="service-list__item">Отзывы</li>
-            </ul>
-        </div>
-        <div class="picture-block main__picture-block">
-            <div class="text picture-block__text">
-                <p class="text__item">
-                    Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете
-                    отремонтировать свой ноутбук Dell с официальной гарантией производителя.
-                </p>
-                <p class="text__item text__item--hidden">Мы успешно работаем с 1992 года и заслужили репутацию надежного
-                    партнера</p>
-                <p class="text__item text__item--hidden">Мы успешно работаем с 1992 года и заслужили репутацию надежного
-                    партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам
-                    обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
-                <button class="read-more-button">Читать далее</button>
+            <div class="button-block__item">
+              <span class="button-block__name">Статус ремонта</span>
+              <button class="button-block__search button"></button>
             </div>
-            <img class="image picture-block__image" src="/The-first-layout/img/main_pic.jpeg" alt="Логотип компании">
+          </div>
         </div>
+        <ul class="service-list main__service-list">
+          <li class="service-list__item service-list__item--active">
+            Ремонтируемые устройства
+          </li>
+          <li class="service-list__item">Дополнительные услуги</li>
+          <li class="service-list__item">Цены на услуги</li>
+          <li class="service-list__item">Специальные цены</li>
+          <li class="service-list__item">Адреса сервисных центров</li>
+          <li class="service-list__item">Отзывы</li>
+        </ul>
+      </div>
+      <div class="main__picture-block">
+        <div class="main__picture-block-text">
+          <p class="main__text-item">
+            Мы являемся авторизованным сервисным центром по ремонту техники
+            Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
+            официальной гарантией производителя.
+          </p>
+          <p class="main__text-item main__text-item--hidden">
+            Мы успешно работаем с 1992 года и заслужили репутацию надежного
+            партнера
+          </p>
+          <p class="main__text-item main__text-item--hidden">
+            Мы успешно работаем с 1992 года и заслужили репутацию надежного
+            партнера, что подтверждает большое количество постоянных клиентов.
+            Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою
+            очередь, советуют нас родным и близким.
+          </p>
+          <button class="read-more-button">Читать далее</button>
+        </div>
+        <img
+          class="main__picture-block-img"
+          src="/The-first-layout/img/main_pic.jpeg"
+          alt="Логотип компании"
+        />
+      </div>
     </main>
-</body>
+  </body>
 </html>
